@@ -10,7 +10,7 @@ const Main = () => {
       <Container fluid={true}>
         <Row className=" mt-5">
           <div className=" ms-3 mb-5 border-bottom border-1 border-dark">
-            <Welcome weight="bold" />
+            <Welcome />
             <p className="fs-3">Cosa vuoi leggere?</p>
           </div>
         </Row>

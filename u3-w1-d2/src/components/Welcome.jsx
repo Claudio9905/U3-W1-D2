@@ -1,15 +1,11 @@
 import Alert from "react-bootstrap/Alert";
 
-const Welcome = (props) => {
-  const colorBg = {
-    fontWeight: props.weight,
-  };
-
+const Welcome = () => {
   return (
     <>
       {["light"].map((variant) => (
         <Alert key={variant} variant={variant} className="w-50 shadow-lg fs-1">
-          Benvenuto in <span style={colorBg}>Epi-Library</span>
+          Benvenuto in <span className=" text-dark">Epi-Library</span>
         </Alert>
       ))}
     </>
