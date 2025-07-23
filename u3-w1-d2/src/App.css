@@ -36,6 +36,28 @@ body {
   text-align: center;
 }
 
+#img-singleBook {
+  box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.453);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+#singleCard {
+  border: 1px solid rgb(180, 180, 180);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.211);
+}
+
+#title-singleBook {
+  border-bottom: 1px solid grey;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  text-align: center;
+}
+
+#btn-singleCard {
+  border: 2px solid rgb(224, 221, 221);
+}
+
 footer {
   margin-top: 2em;
   background-color: rgb(32, 31, 31);
